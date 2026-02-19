@@ -7,7 +7,8 @@ for nome in nomes:
 
 #23 
 nomes_maiusculo = ["ANA", "PEDRO", "MARIA","JOÃO"]
-
+for nome in nomes_maiusculo:
+    print(nome)
 
 #24
 numeros = range(1,20)
