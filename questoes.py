@@ -44,3 +44,9 @@
 # R: Para filtrar uma coluna de string em um DataFrame, você pode usar a função str.contains() do pandas. Por exemplo,
 # se você tem um DataFrame chamado meu_dataframe e uma coluna chamada "nome", você pode filtrar os valores que contêm 
 # a string "João" com meu_dataframe[meu_dataframe["nome"].str.contains("João")].
+
+## 11. Como fazer dois filtros do DataFrame?
+# R: Para fazer dois filtros em um DataFrame, você pode usar o operador lógico & para combinar as condições.
+# Por exemplo, se você tem um DataFrame chamado meu_dataframe e deseja filtrar os valores   onde a coluna
+# "idade" é maior que 18 e a coluna "cidade" é igual a "São Paulo", você pode usar: 
+# meu_dataframe[(meu_dataframe["idade"] > 18) & (meu_dataframe["cidade"] == "São Paulo")]
