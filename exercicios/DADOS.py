@@ -435,7 +435,7 @@ fig.suptitle("Naming Rights no Futebol Brasileiro – Análise Financeira Compar
              "Palmeiras (Allianz Parque) | Flamengo (controle) | Atlético-MG (Arena MRV)",
              fontsize=14, fontweight="bold", y=1.0)
 
-plt.savefig("/mnt/user-data/outputs/naming_rights_analise.png", bbox_inches="tight", dpi=150)
+plt.savefig("naming_rights_analise.png", bbox_inches="tight", dpi=150)
 print("Grafico 1 salvo: naming_rights_analise.png")
 
 
@@ -475,8 +475,10 @@ arrow(ax,(0.22,0.63),(0.22,0.53),"Sim","green")
 arrow(ax,(0.22,0.63),(0.35,0.33),"Não","orange")
 arrow(ax,(0.78,0.63),(0.78,0.53),"Sim","green")
 arrow(ax,(0.78,0.63),(0.90,0.33),"Não","red")
-arrow(ax,(0.22,0.48),(0.10,0.33),"Sim","green")
-arrow(ax,(0.22,0.48),(0.35,0.33),"Não","orange")
+arrow(ax,(0.22,0.48)
+      ,(0.10,0.33),"Sim","green")
+arrow(
+    ax,(0.22,0.48),(0.35,0.33),"Não","orange")
 arrow(ax,(0.78,0.48),(0.65,0.33),"Sim","orange")
 arrow(ax,(0.78,0.48),(0.90,0.33),"Não","red")
 
@@ -487,7 +489,7 @@ fig2.text(0.5,0.01,
     "Acordo Nubank (Palmeiras, 2026) NÃO é escopo desta pesquisa.",
     ha="center", fontsize=8, color="gray", style="italic")
 
-plt.savefig("/mnt/user-data/outputs/framework_arvore_decisao.png", bbox_inches="tight", dpi=150)
+plt.savefig("framework_arvore_decisao.png", bbox_inches="tight", dpi=150)
 print("Grafico 2 salvo: framework_arvore_decisao.png")
 
 
