@@ -122,6 +122,9 @@ receita_comercial_palmeiras = {
     2024: 142.9,
 }
 
+
+#API
+
 # IGP-M acumulado (base 2015=100) – FGV / Banco Central
 igpm = {
     2012: 73.4,  2013: 79.1,  2014: 86.3,  2015: 100.0,
